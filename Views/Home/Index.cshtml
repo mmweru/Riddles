@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- Include any other necessary CSS files here -->
+    <style>
+        /* CSS to center and adjust the size of the iframe */
+        .text-center {
+            text-align: center;
+        }
+
+        .animation-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; /* Adjust spacing as needed */
+        }
+
+        .animation-container iframe {
+            width: 500px; /* Adjust size as needed */
+            height: 500px; /* Adjust size as needed */
+            border: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">
+            🧩 Riddle Me This! 🧩
+        </h1>
+        <p>
+            Challenge your mind with our clever riddles and puzzles. Can you solve them all?
+        </p>
+        <!-- Animation Container -->
+        <div class="animation-container">
+            <iframe src="https://lottie.host/embed/caf407e7-8c82-44c3-8d8d-db157b45ddc5/tNAIZne8in.json" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
